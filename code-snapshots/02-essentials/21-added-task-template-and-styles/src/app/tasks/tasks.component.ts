@@ -63,4 +63,8 @@ export class TasksComponent {
     };
     this.tasks.push(newTask);
   }
+
+  onCancelAddTask() {
+    this.isAddingTask = false;
+  }
 }
